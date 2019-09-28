@@ -1,40 +1,39 @@
-# require 'DegreeConverter.rb'
 local_dir = File.expand_path('../', __FILE__)
 $LOAD_PATH.unshift(local_dir)
 require "DegreeConverter.rb"
 
 # Task 1
-# puts 'Enter some degrees celsius:'
-# print '> '
-# input = gets
-# C = input.to_i
-#
-# print 'F = ', Converter.FromCtoF(C), "\n"
-# print 'K = ', Converter.FromCtoK(C), "\n"
-#
-# # Task 2
-# puts 'Enter C, K or F scale:'
-# print '> '
-# scale = gets.chomp.to_s
-#
-# puts 'Enter degrees:'
-# print '> '
-# degrees = gets.chomp.to_i
-#
-# case scale
-# when 'C'
-#   print 'F = ', Converter.FromCtoF(degrees), "\n"
-#   print 'K = ', Converter.FromCtoK(degrees), "\n"
-# when "K"
-#   print 'C = ', Converter.FromKtoC(degrees), "\n"
-#   print 'F = ', Converter.FromKtoF(degrees), "\n"
-# when "F"
-#   print 'C = ', Converter.FromFtoC(degrees), "\n"
-#   print 'K = ', Converter.FromFtoK(degrees), "\n"
-# else
-#   puts "Error"
-#   puts "Please enter C, K or F."
-# end
+puts 'Enter some degrees celsius:'
+print '> '
+input = gets
+C = input.to_i
+
+print 'F = ', Converter.FromCtoF(C), "\n"
+print 'K = ', Converter.FromCtoK(C), "\n"
+
+# Task 2
+puts 'Enter C, K or F scale:'
+print '> '
+scale = gets.chomp.to_s
+
+puts 'Enter degrees:'
+print '> '
+degrees = gets.chomp.to_i
+
+case scale
+when 'C'
+  print 'F = ', Converter.FromCtoF(degrees), "\n"
+  print 'K = ', Converter.FromCtoK(degrees), "\n"
+when "K"
+  print 'C = ', Converter.FromKtoC(degrees), "\n"
+  print 'F = ', Converter.FromKtoF(degrees), "\n"
+when "F"
+  print 'C = ', Converter.FromFtoC(degrees), "\n"
+  print 'K = ', Converter.FromFtoK(degrees), "\n"
+else
+  puts "Error"
+  puts "Please enter C, K or F."
+end
 
 # Task 3
 print 'Enter scale from C, K or F: '

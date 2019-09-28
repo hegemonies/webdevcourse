@@ -1,1 +1,5 @@
-ruby '2.5.1'
+# web dev course gemfile
+source "https://rubygems.org"
+
+gem 'rspec', '~> 3.6'
+gem 'rubocop'
