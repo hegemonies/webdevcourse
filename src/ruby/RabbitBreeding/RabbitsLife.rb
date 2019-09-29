@@ -11,7 +11,7 @@ class RabbitsLife
       if @@now_count_month % 2 == 0 && @@now_count_month != 0
         go_breeding()
       end
-      print @@now_count_month, " ", @count_rabbits, "\n"
+      # print @@now_count_month, " ", @count_rabbits, "\n"
       @@now_count_month += 1
     end
   end
