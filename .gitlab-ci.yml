@@ -7,5 +7,3 @@ rspec:
   stage: rspec
   script:
     - rspec src/spec/*
-  tags:
-    - rspec
