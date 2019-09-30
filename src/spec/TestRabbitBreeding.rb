@@ -5,6 +5,6 @@ describe "Test of rabbit breeding" do
     rabbitLife = RabbitsLife.new(12)
     rabbitLife.run_circle_life
 
-    expect(rabbitLife.get_count_rabbits).to eql(64)
+    expect(rabbitLife.count_rabbits).to eql(64)
   end
 end
