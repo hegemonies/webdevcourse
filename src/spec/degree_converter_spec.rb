@@ -1,4 +1,4 @@
-require_relative '../ruby/Converter/DegreeConverter.rb'
+require_relative '../ruby/converter/degree_converter.rb'
 
 describe DegreeConverter do
   describe '#from_c_to_f' do

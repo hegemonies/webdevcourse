@@ -1,6 +1,6 @@
 
 class Hello
   def say
-    "Hello"
+    "hello"
   end
 end

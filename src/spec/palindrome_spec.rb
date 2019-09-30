@@ -1,6 +1,6 @@
-require_relative '../ruby/CheckPalindrome/CheckPalindrome.rb'
+require_relative '../ruby/check_palindrome/check_palindrome.rb'
 
-describe "CheckPalindrome.rb" do
+describe "check_palindrome.rb" do
   it "check palindrome on true" do
     expect(CheckPalindrome.is_palindrome?"TENET").to eql(true)
   end

@@ -1,6 +1,6 @@
 local_dir = File.expand_path('../', __FILE__)
 $LOAD_PATH.unshift(local_dir)
-require "DegreeConverter.rb"
+require "degree_converter.rb"
 
 # Task 1
 puts 'Enter some degrees celsius:'

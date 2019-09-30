@@ -1,4 +1,4 @@
-require_relative '../ruby/RabbitBreeding/RabbitsLife'
+require_relative '../ruby/rabbit_breeding/rabbits_life'
 
 describe "Test of rabbit breeding" do
   it "test count rabbits" do

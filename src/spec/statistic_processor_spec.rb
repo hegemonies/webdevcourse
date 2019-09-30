@@ -1,5 +1,5 @@
-require_relative '../ruby/FileProcessor/StatisticProcessor.rb'
-require_relative '../ruby/FileProcessor/MyParserCSV.rb'
+require_relative '../ruby/file_processor/statistic_processor.rb'
+require_relative '../ruby/file_processor/my_parser_CSV.rb'
 
 describe "Test of statistic processor" do
   csv_filename = 'stats.csv'
